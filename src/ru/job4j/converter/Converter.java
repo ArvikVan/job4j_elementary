@@ -2,10 +2,11 @@ package ru.job4j.converter;
 //Метод реализован согласно условиям задачи, но результат не корректен поскольку целочисленный
 // тип метода, аргумента и переменной rsl не дает реальной конвертации валюты
 public class Converter {
-    public static int rubleToEuro(int value){
+    public static int rubleToEuro(int value) {
         return value / 70;
     }
-    public static int rubleToDollar(int value){
+
+    public static int rubleToDollar(int value) {
         return  value / 60;
     }
 
