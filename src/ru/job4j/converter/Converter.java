@@ -3,12 +3,10 @@ package ru.job4j.converter;
 // тип метода, аргумента и переменной rsl не дает реальной конвертации валюты
 public class Converter {
     public static int rubleToEuro(int value){
-        int rsl = value / 70;
-        return rsl;
+        return value / 70;
     }
     public static int rubleToDollar(int value){
-        int rsl = value / 60;
-        return  rsl;
+        return  value / 60;
     }
 
     public static void main(String[] args) {
@@ -21,12 +19,10 @@ public class Converter {
 
 /*public class Converter {
     public static double rubleToEuro(double value){
-        double rsl = value / 70;
-        return rsl;
+        return value / 70;
     }
     public static double rubleToDollar(double value){
-        double rsl = value / 60;
-        return  rsl;
+        return  value / 60;
     }
 
     public static void main(String[] args) {
