@@ -27,9 +27,8 @@ public class Converter {
         System.out.println("140 rubles are 2 dollar. Test result : " + passed2);
     }
 }
-
-
-/*public class Converter {
+/*
+public class Converter {
     public static double rubleToEuro(double value) {
         return value / 70;
     }
@@ -40,7 +39,7 @@ public class Converter {
 
     public static void main(String[] args) {
         double euro = Converter.rubleToEuro(140);
-        double dollar = Converter.rubleToDollar(150);
+        double dollar = Converter.rubleToDollar(180);
         System.out.println("140 rubles are " + euro + " euro");
         System.out.println("140 rubles are " + dollar + " dollar");
 
@@ -57,4 +56,5 @@ public class Converter {
         System.out.println("150 rubles are 2.5 dollar . Test result : " + passedDollar);
 
     }
-}*/
+}
+*/
