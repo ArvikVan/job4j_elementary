@@ -7,7 +7,11 @@ public class ArrayLoop {
             array[i] = (i * 2) + 3;
         }
         for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
+            System.out.print(array[i] + " ");
+        }
+        System.out.println();
+        for (int func : array) {
+            System.out.print(func + " ");
         }
     }
 }
