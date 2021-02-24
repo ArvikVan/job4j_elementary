@@ -29,6 +29,17 @@ public class MinDiapasonTest {
     }
 
     @Test
+    public void when5elem() {
+        assertThat(
+                MinDiapason.findMin(
+                        new int[] {10, 5, 3, 7, 1},
+                        1, 4
+                ),
+                is(1)
+        );
+    }
+
+    @Test
     public void whenMiddleMin() {
         assertThat(
                 MinDiapason.findMin(
