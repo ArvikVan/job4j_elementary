@@ -19,8 +19,6 @@ public class Cinema {
     }
 
     public static void main(String[] args) {
-        /*Cinema.acces(21);
-        Cinema.acces(16);*/
         Cinema.permission(true, true);
         Cinema.permission(false, true);
         Cinema.permission(true, false);
